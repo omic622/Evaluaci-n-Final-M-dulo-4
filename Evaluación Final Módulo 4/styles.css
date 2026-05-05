@@ -1,0 +1,36 @@
+/* Fondo general */
+body {
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  min-height: 100vh;
+}
+
+/* Título */
+h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Botones */
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+/* Loader más centrado */
+#loader {
+  margin-top: 20px;
+}
